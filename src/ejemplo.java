@@ -2,12 +2,31 @@ public class ejemplo {
     
     public static void main(String[] args){
 
-        int torneoId = 45605;
+        int torneoId = 5678;
         String nombreTorneo = "Champions League";
-        int grupoId = 59665;
+        int grupoId = 67970;
         String nombreGrupo = "A";
-        int equipoId = 30450;
-        String equipoNombre = "Manchester City";
+        int equipoId = 69795;
+        String equipoNombre = "FC Barcelona";
+
+        /*String nombre = "Julian Manuel";
+        String primApellido = "Rosas"; 
+        String secApellido = "Silva";
+        int edad = 30;
+        int id = 1234;
+
+
+        settersGettersJugadores jgdor = new settersGettersJugadores();
+        jgdor.setNombre(nombre);
+        jgdor.setPrimerApellido(primApellido);
+        jgdor.setSegundoApellido(secApellido);
+        jgdor.setEdad(edad);
+        jgdor.setIdJugador(id);
+
+        updateDataPlayer updtPlyr = new updateDataPlayer();
+        updtPlyr.startUpdatePLayers(jgdor, jgdor, jgdor, jgdor, jgdor);*/
+
+
 
         settersGettersTorneos torneo = new settersGettersTorneos();
         torneo.setIdTorneo(torneoId);
@@ -37,7 +56,7 @@ public class ejemplo {
        // jugador.setIdJugador(idJugador);
 
        // deleteDataPlayer dlte = new deleteDataPlayer();
-       // dlte.startDeletePlayer(jugador);
+       // dlte.startDeletePlayer(jugador); 
 
     }
 }
