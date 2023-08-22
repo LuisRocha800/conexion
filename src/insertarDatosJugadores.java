@@ -5,6 +5,8 @@ import java.sql.SQLException;
 
 public class insertarDatosJugadores {
 
+
+
     public void iniciar(settersGettersJugadores insertID, settersGettersJugadores insertApp1, settersGettersJugadores insertApp2, settersGettersJugadores insertNom, settersGettersJugadores insertAge){
 
         int id = insertID.getIdJugador();   
